@@ -29,7 +29,7 @@ Durante os estudos, estou praticando conceitos como:
 
 ## 📂 Estrutura do repositório
 
-
+```text
 aprendendo-python/
 │
 ├── aprendendo_py/
