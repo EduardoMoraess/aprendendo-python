@@ -1,6 +1,7 @@
 from calc import media_nota
 from porcentagem import porcentagem
 from  tabuada import tabuada
+from convesor_temperatura import conversor_temperatura
 
 import time
 
@@ -21,6 +22,8 @@ while True:
         tabuada()
     elif opcao == '3':
         porcentagem()
+    elif opcao == 4:
+        conversor_temperatura()
     else:
         print('opção invalida')
 
