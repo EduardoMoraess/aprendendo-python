@@ -16,4 +16,4 @@ if media >= 7:
 elif 5 <= media < 7:
   print('Situação: Recuperação')
 else:
-  print("Situação; Reprovado")
+    print("Situação; Reprovado")
