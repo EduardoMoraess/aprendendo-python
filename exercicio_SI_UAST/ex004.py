@@ -20,3 +20,5 @@ else:
     print(f'Preço normal de {preco}')
 
 print(f'Valor final da corrida vai ser {preco:.2f}')
+
+#se tiver erro ai ja não sei oque foi
