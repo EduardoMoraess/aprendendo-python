@@ -1,0 +1,469 @@
+{
+    // ═════════════════════════════════════════════════════════════
+    // AURORA ATELIER — identidade visual autoral para desenvolvimento
+    // Base grafite-azulada + acentos menta, lavanda, coral, âmbar e céu.
+    // ═════════════════════════════════════════════════════════════
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "catppuccin-perfect-dark",
+    "workbench.colorTheme": "Dark Modern",
+    // ── INTERFACE ────────────────────────────────────────────────
+    "workbench.colorCustomizations": {
+        "editor.background": "#191B1F",
+        "editor.foreground": "#E0E7EF",
+        "editorLineNumber.foreground": "#74849A",
+        "editorLineNumber.activeForeground": "#72D6C2",
+        "editorCursor.foreground": "#72D6C2",
+        "editor.selectionBackground": "#3B687080",
+        "editor.selectionHighlightBackground": "#3B687045",
+        "editor.lineHighlightBackground": "#202A39",
+        "editorIndentGuide.background1": "#30363E",
+        "editorIndentGuide.activeBackground1": "#526D7C",
+        "editorWhitespace.foreground": "#303D50",
+        "editorRuler.foreground": "#30363E",
+        "sideBar.background": "#22252A",
+        "sideBar.foreground": "#D5DFE8",
+        "sideBar.border": "#22252A00",
+        "sideBarTitle.foreground": "#B9A7F5",
+        "sideBarSectionHeader.background": "#2A2F36",
+        "sideBarSectionHeader.foreground": "#C9D7E1",
+        "activityBar.background": "#1E2126",
+        "activityBar.foreground": "#72D6C2",
+        "activityBar.inactiveForeground": "#9AA8B8",
+        "activityBar.border": "#1E212600",
+        "activityBar.activeBorder": "#F29A83",
+        "panel.background": "#20242A",
+        "panel.border": "#20242A00",
+        "panelTitle.activeForeground": "#B9A7F5",
+        "panelTitle.inactiveForeground": "#9AA8B8",
+        "tab.activeBackground": "#191B1F",
+        "tab.inactiveBackground": "#2A2F36",
+        "tab.activeForeground": "#EAF0F4",
+        "tab.inactiveForeground": "#AAB7C5",
+        "tab.border": "#191B1F00",
+        "tab.activeBorderTop": "#72D6C2",
+        "tab.unfocusedActiveBorderTop": "#526D7C",
+        "statusBar.background": "#3A424C",
+        "statusBar.foreground": "#E5EEF0",
+        "statusBar.noFolderBackground": "#3A424C",
+        "statusBar.debuggingBackground": "#365C4A",
+        "statusBar.debuggingForeground": "#F0F8EE",
+        "statusBarItem.remoteBackground": "#665083",
+        "statusBarItem.remoteForeground": "#F6EDFF",
+        "titleBar.activeBackground": "#22252A",
+        "titleBar.activeForeground": "#E0E7EF",
+        "titleBar.inactiveBackground": "#22252A",
+        "titleBar.inactiveForeground": "#9AA8B8",
+        "focusBorder": "#72D6C2",
+        "widget.border": "#2A2F3600",
+        "widget.shadow": "#0D1420A0",
+        "input.background": "#30363E",
+        "input.foreground": "#EAF0F4",
+        "input.border": "#30363E",
+        "input.placeholderForeground": "#9AA8B8",
+        "dropdown.background": "#30363E",
+        "dropdown.foreground": "#EAF0F4",
+        "dropdown.border": "#30363E",
+        "list.activeSelectionBackground": "#344E60",
+        "list.activeSelectionForeground": "#F5FAF8",
+        "list.inactiveSelectionBackground": "#2A3A4A",
+        "list.hoverBackground": "#29394A",
+        "list.focusOutline": "#72D6C2",
+        "editorWidget.background": "#2A2F36",
+        "editorWidget.border": "#2A2F36",
+        "editorSuggestWidget.background": "#2A2F36",
+        "editorSuggestWidget.border": "#2A2F36",
+        "editorSuggestWidget.selectedBackground": "#354F61",
+        "editorHoverWidget.background": "#2A2F36",
+        "editorHoverWidget.border": "#2A2F36",
+        "terminal.background": "#191B1F",
+        "terminal.foreground": "#E0E7EF",
+        "terminalCursor.foreground": "#72D6C2",
+        // Git: verde = adicionado, âmbar = alterado, coral = conflito, vermelho = removido
+        "gitDecoration.addedResourceForeground": "#A6D68B",
+        "gitDecoration.modifiedResourceForeground": "#E9B968",
+        "gitDecoration.deletedResourceForeground": "#EF858F",
+        "gitDecoration.untrackedResourceForeground": "#72D6C2",
+        "gitDecoration.conflictingResourceForeground": "#F29A83",
+        // Diagnósticos: vermelho = erro, âmbar = atenção, azul = informação
+        "errorForeground": "#EF858F",
+        "editorError.foreground": "#EF858F",
+        "editorWarning.foreground": "#E9B968",
+        "editorInfo.foreground": "#83B9F0",
+        "editorHint.foreground": "#A6D68B",
+        // Cada nível de parênteses recebe uma cor própria
+        "editorBracketHighlight.foreground1": "#72D6C2",
+        "editorBracketHighlight.foreground2": "#C5A0F2",
+        "editorBracketHighlight.foreground3": "#E9B968",
+        "editorBracketHighlight.foreground4": "#83B9F0",
+        "editorBracketHighlight.foreground5": "#F29A83",
+        "editorBracketHighlight.foreground6": "#A6D68B",
+        "breadcrumb.foreground": "#AAB7C5",
+        "breadcrumb.focusForeground": "#B9A7F5",
+        "breadcrumb.activeSelectionForeground": "#72D6C2",
+        "peekView.border": "#72D6C2",
+        "peekViewEditor.background": "#20242A",
+        "peekViewResult.background": "#22252A",
+        "peekViewTitle.background": "#30363E",
+        "notificationCenterHeader.background": "#2A2F36",
+        "notifications.background": "#2A2F36",
+        "notifications.border": "#2A2F36",
+        "progressBar.background": "#72D6C2"
+    },
+    // ── EXPLORER ─────────────────────────────────────────────────
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "workbench.tree.indent": 14,
+    // ── EDITOR ───────────────────────────────────────────────────
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.fontSize": 11.5,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.65,
+    "editor.wordWrap": "on",
+    "editor.renderLineHighlight": "gutter",
+    "editor.renderWhitespace": "selection",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    // ── INDENTAÇÃO ───────────────────────────────────────────────
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    // ── INTELLISENSE ─────────────────────────────────────────────
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.suggest.localityBonus": true,
+    "editor.parameterHints.enabled": true,
+    "editor.hover.delay": 250,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.inlineSuggest.enabled": true,
+    "editor.snippetSuggestions": "top",
+    // ── PRODUTIVIDADE ────────────────────────────────────────────
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": true,
+    // ── PESQUISA ─────────────────────────────────────────────────
+    "search.smartCase": true,
+    "search.useIgnoreFiles": true,
+    "search.exclude": {
+        "**/.git": true,
+        "**/.venv": true,
+        "**/venv": true,
+        "**/__pycache__": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true
+    },
+    // ── ARQUIVOS ─────────────────────────────────────────────────
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    // ── GIT ──────────────────────────────────────────────────────
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.decorations.enabled": true,
+    // ── TERMINAL ─────────────────────────────────────────────────
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.suggest.enabled": true,
+    "terminal.integrated.scrollback": 5000,
+    // ── PYTHON ───────────────────────────────────────────────────
+    "python.createEnvironment.trigger": "off",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.functionReturnTypes": false,
+    "python.analysis.inlayHints.variableTypes": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    // ── LIVE SERVER ──────────────────────────────────────────────
+    "liveServer.settings.donotShowInfoMsg": true,
+    // ── SINTAXE: PALETA PRISM — cores distintas e sem tons terrosos ──
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "foreground": "#78879A",
+                    "fontStyle": "italic"
+                }
+            },
+            // Python: self recebe uma cor própria, sem laranja/marrom
+            {
+                "scope": [
+                    "variable.parameter.function.language.special.self.python",
+                    "variable.language.special.self.python",
+                    "variable.language.python"
+                ],
+                "settings": {
+                    "foreground": "#F08FBD",
+                    "fontStyle": "italic"
+                }
+            },
+            // Estruturas e palavras reservadas
+            {
+                "scope": [
+                    "keyword.control",
+                    "keyword.control.flow",
+                    "keyword.control.conditional",
+                    "keyword.control.loop"
+                ],
+                "settings": {
+                    "foreground": "#F28FB3",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "keyword",
+                    "storage",
+                    "storage.type",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "foreground": "#C6A0F6"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator",
+                    "keyword.operator.logical",
+                    "keyword.operator.comparison",
+                    "keyword.operator.assignment"
+                ],
+                "settings": {
+                    "foreground": "#83D6E8"
+                }
+            },
+            // Funções, métodos, classes e módulos
+            {
+                "scope": [
+                    "entity.name.function",
+                    "support.function",
+                    "meta.function-call"
+                ],
+                "settings": {
+                    "foreground": "#82B8F5"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.class",
+                    "entity.name.type",
+                    "support.type"
+                ],
+                "settings": {
+                    "foreground": "#72DCC5"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.namespace",
+                    "entity.name.module"
+                ],
+                "settings": {
+                    "foreground": "#D6A6F2"
+                }
+            },
+            // Dados e valores
+            {
+                "scope": [
+                    "string",
+                    "string.quoted",
+                    "string.template"
+                ],
+                "settings": {
+                    "foreground": "#B9DC91"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "constant.numeric.integer",
+                    "constant.numeric.float"
+                ],
+                "settings": {
+                    "foreground": "#F49A83"
+                }
+            },
+            {
+                "scope": [
+                    "constant.language.boolean",
+                    "constant.language.null",
+                    "constant.language"
+                ],
+                "settings": {
+                    "foreground": "#E8C878"
+                }
+            },
+            {
+                "scope": [
+                    "constant.character",
+                    "constant.other"
+                ],
+                "settings": {
+                    "foreground": "#E8C878"
+                }
+            },
+            // Variáveis, parâmetros e propriedades
+            {
+                "scope": [
+                    "variable.parameter",
+                    "meta.parameter"
+                ],
+                "settings": {
+                    "foreground": "#A9A7F5"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.property",
+                    "meta.property-name",
+                    "variable.object.property"
+                ],
+                "settings": {
+                    "foreground": "#79CDE0"
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "variable.other.readwrite",
+                    "variable.other.local"
+                ],
+                "settings": {
+                    "foreground": "#DCE5EF"
+                }
+            },
+            {
+                "scope": [
+                    "variable.language.this",
+                    "variable.language.super"
+                ],
+                "settings": {
+                    "foreground": "#F08FBD",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.decorator",
+                    "punctuation.definition.decorator",
+                    "meta.decorator"
+                ],
+                "settings": {
+                    "foreground": "#E8C878"
+                }
+            },
+            // HTML / JSX / TSX
+            {
+                "scope": [
+                    "entity.name.tag",
+                    "punctuation.definition.tag"
+                ],
+                "settings": {
+                    "foreground": "#F28FB3"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name"
+                ],
+                "settings": {
+                    "foreground": "#83D6E8"
+                }
+            },
+            // Pontuação e bibliotecas
+            {
+                "scope": [
+                    "punctuation.separator",
+                    "punctuation.accessor",
+                    "punctuation.section"
+                ],
+                "settings": {
+                    "foreground": "#91A6BD"
+                }
+            },
+            {
+                "scope": [
+                    "support.constant",
+                    "support.variable"
+                ],
+                "settings": {
+                    "foreground": "#D6A6F2"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.label",
+                    "entity.name.section"
+                ],
+                "settings": {
+                    "foreground": "#72DCC5"
+                }
+            }
+        ]
+    },
+    // Semântica: separa tipos, métodos, propriedades, parâmetros e variáveis
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "class": "#72DCC5",
+            "type": "#72DCC5",
+            "interface": "#82B8F5",
+            "enum": "#E8C878",
+            "enumMember": "#D6A6F2",
+            "function": "#82B8F5",
+            "method": "#83D6E8",
+            "parameter": "#A9A7F5",
+            "variable": "#DCE5EF",
+            "property": "#79CDE0",
+            "property.readonly": "#D6A6F2",
+            "variable.readonly": "#E8C878",
+            "variable.defaultLibrary": "#D6A6F2",
+            "function.defaultLibrary": "#83D6E8",
+            "method.defaultLibrary": "#83D6E8",
+            "namespace": "#D6A6F2",
+            "decorator": "#E8C878",
+            "keyword": "#C6A0F6",
+            "operator": "#83D6E8",
+            "number": "#F49A83",
+            "string": "#B9DC91",
+            "boolean": "#F28FB3",
+            "comment": {
+                "foreground": "#78879A",
+                "italic": true
+            }
+        }
+    }
+}
